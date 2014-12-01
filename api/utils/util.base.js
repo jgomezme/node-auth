@@ -1,3 +1,7 @@
 // util base
 
-//require('./');
+module.exports = {
+   cross :	require('./cross.domain.js')
+}
+
+

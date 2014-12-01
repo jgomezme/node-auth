@@ -12,7 +12,8 @@
 	   "mongoose" : "latest",
 	   "forever" : "latest",
 	   "should" : "latest",	   	   
-	   "body-parser" : "latest"	   
+	   "body-parser" : "latest",
+	   "bcrypt-nodejs" : "latest" 
 	},
 	"scripts" : {
 	"start" : "forever start main.js",

@@ -19,7 +19,7 @@
 	"start" : "forever start main.js",
 	"restart" : "forever restart main.js",
 	"stop" : "forever stop main.js",
-	"test" : "node main.js",
+	"test" : "node dbUser = 'cyz' dbPass = '$_S0lunt3ch;' dbUrl = 'localhost' dbName = 'cyz' main.js",
 	"dev" : "forever main.js"
     }
 }

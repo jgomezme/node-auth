@@ -1,6 +1,5 @@
 var restify = require('restify');
 var mongoose = require('mongoose');
-var config = require('./config.json');
 var awsConf = undefined;
 
 
@@ -34,13 +33,7 @@ mongoose.connection.on('open', function(ref){
         return;
         }
             
-        
-        
-        new require('./controllers/helloCtrl.js')(server);
-        new require('./controllers/snsCtrl.js')(awsConf, server);
-        
-        server.listen(8080);
-        
+
         
         });
         

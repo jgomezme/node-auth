@@ -1,7 +1,7 @@
 // controller base
 
 
-var model = function (server){
+var ctrlName = function (server){
     			
        function get(req, res, next){
        	// code
@@ -20,10 +20,12 @@ var model = function (server){
        }
 
 
-       server.get('',get);
-       server.post('',put);
-       server.put('',put);
-       server.del('',del);
-
+       server.get('api/ctrlName',get);
+       server.post('api/ctrlName',put);
+       server.put('api/ctrlName',put);
+       server.del('api/ctrlName',del);
 
 }
+
+
+module.exports = ctrlName;
